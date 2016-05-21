@@ -26,6 +26,7 @@ object Point1{
       println(return2(2));
 
       println(funcAsPara(return2,2)) //put the name of function : reference ?
+      println(funcAsPara2(return3,2))//
 
   }
 
@@ -46,6 +47,14 @@ object Point1{
     return a * a ;//optional
   }
 
+  def return3(a: Int) : String = {
+    //a * a //defaulted return
+    return (a * a).toString ;//optional
+  }
+
+
   def funcAsPara(f:Int => Int , arg : Int) = f(arg) + arg
+
+  def funcAsPara2(f:Int => String , arg : Int) = f(arg) + arg//
 
 }
