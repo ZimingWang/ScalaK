@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0118cfa-c50e-49b6-83c6-ce9a0feeee3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/akka.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheActor.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheActor2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheActorPrin.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheAsync.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheClientServer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheFuture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/TheParalle.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Syn/WordCount.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnScala.iml" afterPath="$PROJECT_DIR$/LearnScala.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac/TheExtractor.scala" afterPath="$PROJECT_DIR$/src/Prac/TheExtractor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Syn/TheActor.scala" afterPath="$PROJECT_DIR$/src/Syn/TheActor.scala" />
     </list>
     <ignored path="LearnScala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,43 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WithJava.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/WithJava.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheExtractor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/TheExtractor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheMemo.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/TheMemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TheImplicity.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prac/TheImplicity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="128">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,41 +44,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheDSL.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/TheDSL.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheSpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/TheSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheBuildTool.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prac/TheBuildTool.scala">
+      <file leaf-file-name="TheClientServer.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Syn/TheClientServer.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#48#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheFuture.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Syn/TheFuture.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding>
+                <element signature="e#48#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheAsync.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Syn/TheAsync.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#13#59#0" expanded="false" />
+                <element signature="e#61#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Syn/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#WordCount$#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheParalle.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Syn/TheParalle.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc;n#TheParalle$#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheExtractor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac/TheExtractor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheActor.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TheActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Syn/TheActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="-15">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -140,8 +152,8 @@
       <list>
         <option value="Class" />
         <option value="JavaFXApplication" />
-        <option value="Scala Script" />
         <option value="Scala Worksheet" />
+        <option value="Scala Script" />
       </list>
     </option>
   </component>
@@ -176,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/FP/Lazy.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheEqual.scala" />
         <option value="$PROJECT_DIR$/src/Prac/WithJava.scala" />
-        <option value="$PROJECT_DIR$/src/Prac/TheExtractor.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheMemo.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheImplicity.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheDSL.scala" />
@@ -185,12 +196,20 @@
         <option value="$PROJECT_DIR$/src/Syn/TheActor2.scala" />
         <option value="$PROJECT_DIR$/src/Syn/TheActorPrin.sc" />
         <option value="$PROJECT_DIR$/src/Syn/TheActor.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheExtractor.scala" />
+        <option value="$PROJECT_DIR$/src/Syn/TheClientServer.scala" />
+        <option value="$PROJECT_DIR$/src/Syn/TheFuture.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheAsync.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheParalle.scala" />
+        <option value="$PROJECT_DIR$/src/Syn/TheParalle.scala" />
+        <option value="$PROJECT_DIR$/src/Syn/TheAsync.scala" />
+        <option value="$PROJECT_DIR$/src/Syn/WordCount.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="346" />
-    <option name="y" value="209" />
+    <option name="x" value="341" />
+    <option name="y" value="43" />
     <option name="width" value="1238" />
     <option name="height" value="684" />
   </component>
@@ -268,6 +287,24 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -284,10 +321,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$USER_HOME$/akka-2.3.15/lib/akka" />
   </component>
-  <component name="RunManager" selected="Application.TheImplicity">
-    <configuration default="false" name="TheEqual" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.WordCount">
+    <configuration default="false" name="TheClientServer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TheEqual" />
+      <option name="MAIN_CLASS_NAME" value="TheClientServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -300,9 +337,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WithJava" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TheFuture" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WithJava" />
+      <option name="MAIN_CLASS_NAME" value="TheFuture" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -315,9 +352,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Email" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TheAsync" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Email" />
+      <option name="MAIN_CLASS_NAME" value="Syn.TheAsync" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,14 +367,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TheMemo" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Prac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Prac.TheMemo" />
+    <configuration default="false" name="TheParalle" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Syn.TheParalle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -350,9 +382,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TheImplicity" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="WordCount" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TheImplicity" />
+      <option name="MAIN_CLASS_NAME" value="WordCount" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -652,19 +684,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TheEqual" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WithJava" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Email" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TheMemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TheImplicity" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TheClientServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TheFuture" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TheAsync" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TheParalle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WordCount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TheImplicity" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TheMemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Email" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TheEqual" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WithJava" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WordCount" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TheParalle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TheAsync" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TheFuture" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TheClientServer" />
       </list>
     </recent_temporary>
   </component>
@@ -690,21 +722,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="209" width="1238" height="684" extended-state="0" />
+    <frame x="341" y="43" width="1238" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.48662207" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23498233" sideWeight="0.48662207" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.5200669" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43462896" sideWeight="0.47658864" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32685512" sideWeight="0.4799331" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43462896" sideWeight="0.47658864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.4799331" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24916388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -734,7 +766,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -743,24 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FP/PatternM.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc;n#PatternMM#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FP/TheCaseClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FP/TheFP.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1029,30 +1043,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prac/TheExtractor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Prac/TheMemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prac/TheImplicity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1097,11 +1093,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Syn/TheActor.scala">
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheImplicity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/akka-2.3.15/lib/akka/akka-actor_2.10-2.3.15.jar!/akka/actor/Actor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/TheActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheExtractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/TheClientServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/TheFuture.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#48#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/TheParalle.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc;n#TheParalle$#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/TheAsync.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#59#0" expanded="false" />
+            <element signature="e#61#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Syn/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#WordCount$#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

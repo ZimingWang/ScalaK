@@ -3,9 +3,9 @@
   */
 import scala.util.matching.Regex
 
-object Email{
+/*object Email{
 
-  def unapply(str: String) =  new Regex("""(.*)@(.*)""")
+  def unapply(str: Email) =  new Regex("""(.*)@(.*)""")
     .unapplySeq(str).get match{
     case user :: domain :: Nil => Some(user, domain)
     case _ => None
@@ -18,4 +18,4 @@ object Email{
     }
 }
 
-}
+}*/
