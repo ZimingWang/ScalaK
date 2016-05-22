@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0118cfa-c50e-49b6-83c6-ce9a0feeee3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheEqual.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheExtractor.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheMemo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/WithJava.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheBuildTool.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheDSL.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Prac/TheImplicity.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnScala.iws" />
@@ -28,46 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TheFP2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FP/TheFP2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCountMR.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FP/WordCountMR.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TailRecursion.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FP/TailRecursion.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheForInScala.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FP/TheForInScala.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TheOption.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FP/TheOption.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,14 +67,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheMemo.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TheMemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prac/TheMemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="283">
               <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="e#14#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheImplicity.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac/TheImplicity.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheDSL.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac/TheDSL.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheSpec.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac/TheSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheBuildTool.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Prac/TheBuildTool.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,12 +177,16 @@
         <option value="$PROJECT_DIR$/src/Prac/WithJava.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheExtractor.scala" />
         <option value="$PROJECT_DIR$/src/Prac/TheMemo.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheImplicity.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheDSL.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheSpec.scala" />
+        <option value="$PROJECT_DIR$/src/Prac/TheBuildTool.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="682" />
+    <option name="x" value="117" />
+    <option name="y" value="104" />
     <option name="width" value="1238" />
     <option name="height" value="684" />
   </component>
@@ -274,27 +279,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.TheMemo">
-    <configuration default="false" name="Lazy" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="FP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="FP.Lazy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearnScala" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TheImplicity">
     <configuration default="false" name="TheEqual" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TheEqual" />
@@ -348,6 +333,21 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Prac.TheMemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearnScala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TheImplicity" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TheImplicity" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -647,19 +647,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Lazy" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TheEqual" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WithJava" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Email" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TheMemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TheEqual" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WithJava" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Email" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TheMemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TheImplicity" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TheMemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Email" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TheEqual" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WithJava" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Lazy" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TheImplicity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TheMemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Email" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TheEqual" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WithJava" />
       </list>
     </recent_temporary>
   </component>
@@ -685,7 +685,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="682" width="1238" height="684" extended-state="0" />
+    <frame x="117" y="104" width="1238" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,7 +698,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.5200669" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43462896" sideWeight="0.47658864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43462896" sideWeight="0.47658864" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.4799331" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,11 +1034,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Prac/TheMemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="283">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheImplicity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheDSL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac/TheBuildTool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
